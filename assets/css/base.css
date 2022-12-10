@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+:root {
+  --green: #54b192;
+  --gray: #3f3d56;
+  --green-l: #a4cec0;
+  --smoth: all 0.3s ease-in;
+}
+
+button {
+  text-align: center;
+  color: #fff;
+  background-color: var(--gray);
+  padding: 0.8rem 2.5rem;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: var(--smoth);
+}
+
+button:hover {
+  background-color: var(--green-l);
+  transition: var(--smoth);
+}
